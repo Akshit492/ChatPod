@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Consolas';
+  src: url('./fonts/consolas.woff2') format('woff2'), /* Modern Browsers */
+       url('./fonts/consolas.woff') format('woff');   /* Legacy Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 .App {
   text-align: center;
 }
