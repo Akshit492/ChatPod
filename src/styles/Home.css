@@ -1,0 +1,43 @@
+.home-page {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    height: 100vh;
+}
+
+.typing-container {
+    text-align: justify;
+    max-width: 900px; /* Limit the width of the container */
+    margin-top: 20px;/* Center the container within the page */
+    margin-left: 500px;
+    line-height: 200%;
+}
+
+.project-description {
+    font-family: 'Consolas', monospace;
+    color: green;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.upload-button,
+.ask-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  background-color: transparent;
+  color: #7f8055;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.upload-button:hover,
+.ask-button:hover {
+  background-color: #563d52;
+  color: #fff;
+}

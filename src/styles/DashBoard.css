@@ -1,0 +1,58 @@
+/* Dashboard.css */
+
+/* Container for the dashboard */
+.dashboard-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 700px;
+  }
+  
+  /* Title styling */
+  .dashboard-container h1 {
+    text-align: center;
+    color: #85b9c0;
+    margin-bottom: 20px;
+  }
+  
+  /* Project list container */
+  .project-list {
+    list-style-type: none;
+    padding: 0;
+     text-align: center;
+    color: #85b9c0;
+    margin-bottom: 20px;
+
+  }
+  
+  /* Individual project item */
+  .project-item {
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Project item hover effect */
+  .project-item:hover {
+    background-color: #404025;
+    transform: translateY(-2px);
+  }
+  
+  /* Project link */
+  .project-item a {
+    text-decoration: none;
+    color: #55c8d9d5;
+    font-weight: bold;
+  }
+  
+  /* Project link hover effect */
+  .project-item a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,71 @@
+/* ProjectList.css */
+.project-list-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+  }
+  
+  /* Header title */
+  .header-title {
+    flex: 1;
+    text-align: left;
+  }
+  
+  /* Header status */
+  .header-status {
+    flex: 1;
+    text-align: right;
+  }
+/* Project list container */
+.project-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Individual project item */
+  .project-item {
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Project item hover effect */
+  .project-item:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+  }
+  
+  /* Project link */
+  .project-item a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Project link hover effect */
+  .project-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Project title */
+  .project-title {
+    margin-right: 10px;
+  }
+  
+  /* Project status */
+  .project-status {
+    margin-left: auto;
+    padding-left: 10px;
+    color: #888;
+    font-style: italic;
+  }
+  

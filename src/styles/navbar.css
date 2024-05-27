@@ -1,0 +1,104 @@
+/* .navbar {
+    position: relative;
+    background: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    margin-left: 200px;
+    z-index: 1;
+  }
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+}
+  
+  
+  
+  .navbar-items {
+    list-style: none;
+    display: flex;
+    margin-left: 500px;
+  }
+  
+  .navbar-item {
+    margin-right: 30px;
+
+  }
+  
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-item a:hover {
+    text-decoration: underline;
+  }
+   */
+
+   /* src/styles/navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /* Import a unique font for the logo */
+
+.navbar {
+  position: relative;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  z-index: 1;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-family: 'Pacifico', cursive; /* Unique font for the logo */
+  font-size: 1.8em;
+  margin: 0;
+  color: white;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin-left:-700px;
+}
+
+.navbar-item {
+  margin-right: 30px;
+}
+
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navbar-item a:hover {
+  text-decoration: underline;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar-icon {
+  color: white;
+  margin-left: 15px;
+  font-size: 1.5em;
+  transition: color 0.3s ease;
+}
+
+.navbar-icon:hover {
+  color: #737244; /* Change color on hover */
+}
